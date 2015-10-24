@@ -1,10 +1,10 @@
 {
-  "name": "deformo",
+  "name": "plastimesh",
   "version": "1.0.0",
-  "description": "",
+  "description": "A free form surface editor",
   "main": "index.js",
   "dependencies": {
-    "3d-view-controls": "^2.1.1",
+    "3d-view": "^2.0.0",
     "bound-points": "^1.0.0",
     "bunny": "^1.0.1",
     "canvas-fit": "^1.5.0",
@@ -14,8 +14,11 @@
     "gl-shader": "^4.0.5",
     "gl-vec4": "^1.0.1",
     "glslify": "^2.3.1",
+    "mouse-change": "^1.2.1",
+    "mouse-wheel": "^1.0.2",
     "normals": "^1.0.1",
     "refine-mesh": "^1.0.1",
+    "right-now": "^1.0.0",
     "typedarray-pool": "^1.1.0",
     "webworkify": "^1.0.2"
   },

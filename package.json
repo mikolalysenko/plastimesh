@@ -22,9 +22,14 @@
     "typedarray-pool": "^1.1.0",
     "webworkify": "^1.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "indexhtmlify": "^1.2.0",
+    "uglify": "^0.1.5"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify | uglify | indexhtmlify > index.html"
   },
   "author": "",
   "browserify": {
